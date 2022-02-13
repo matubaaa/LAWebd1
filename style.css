@@ -1,0 +1,234 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.firstView h1{
+    -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+    font-family:"游明朝"; 
+    font-size: 40px;
+    padding-top: 150px;
+    display: inline-block;
+}
+
+.firstView{
+    text-align: center;
+    background-color: #f0fff0;
+    background-size: cover;
+    height: 650px;
+}
+.about{
+    background-color:#fffdf3;
+    padding: 200px;
+}
+.profile h2{
+    font-size: 33px;
+    letter-spacing: 0.2em;
+}
+.profile h3{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.profile p{
+    font-size: 14px;
+    margin-top: 6px;
+}
+.profile img{
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.profile .profile-text{
+    width: 400px;
+    float: right;
+
+}
+
+.favorite{
+    
+    text-align: center;
+    padding: 120px 180px 140px 180px;
+    background-color:#f0fff0;
+    background-size: cover;
+}
+.favorite h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+    color: #000;
+
+}
+.favorite-content{
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 16px;
+
+}
+.favorite-content h3{
+    font-size: 24px;
+    margin-top: 16px;
+}
+.favorite-content p{
+    font-size: 16px;
+    text-align:left;
+    margin-top: 32px;
+}
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+.works{
+    padding: 180px;
+    text-align: center;
+    background-color: #fffdf3;
+}
+.works-content{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0, 0,0,15);
+    text-align: left;
+}
+.works-content img{
+    width: 320px;
+    height: 180px;
+}
+.works-content h3{
+    font-size: 28px;
+}
+.works-content p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+.works-content .works-text{
+    margin-left: 32px;
+}
+.photo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f0fff0;
+    background-size: cover;
+}
+.photo h2{
+    font-size: 30px;
+    text-align: center;
+  
+}
+.photo ul{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0;        
+    padding: 0;
+}
+.photo li{
+    min-width: 40%;
+    margin: 10px;        
+    padding: 0;
+    list-style: none;
+}
+.contact{
+    padding: 180px 280px;
+    text-align: center;
+}
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+}
+.contact p{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 00.1em;
+    color:#ffffff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+.contact .sns-twitter{
+    background-color: #00acee;
+}
+.contact .sns-facebook{
+    background-color: #3b5998;
+}
+.contact .sns-instagram{
+    background-color: #FF0099;
+}
+.contact .sns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255, 255, 255,0.8);
+}
+header p{
+    font-size: 24px;
+    font-weight: bold;
+}
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+header a{
+    font-size: 16px;
+    font-weight: bold;
+}
+footer{
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
